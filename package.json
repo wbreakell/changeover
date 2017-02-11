@@ -1,0 +1,11 @@
+{
+  "name": "changeover",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wbreakell/changeover.git"
+  },
+  "author": "Walter Breakell <walterjbreakell@gmail.com>",
+  "license": "MIT"
+}
