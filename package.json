@@ -9,6 +9,7 @@
   "author": "Walter Breakell <walterjbreakell@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "clean": "rimraf dist",
     "start": "webpack-dev-server",
     "build": "webpack -p"
   },
