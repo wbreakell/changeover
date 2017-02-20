@@ -9,7 +9,8 @@
   "author": "Walter Breakell <walterjbreakell@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "build": "webpack -p"
   },
   "dependencies": {
     "react": "^15.4.2",
