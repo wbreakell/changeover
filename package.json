@@ -12,7 +12,8 @@
     "clean": "rimraf dist",
     "start": "webpack-dev-server",
     "prebuild": "yarn run clean",
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "test": "jest"
   },
   "dependencies": {
     "react": "^15.4.2",
