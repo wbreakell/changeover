@@ -14,7 +14,8 @@
     "start": "webpack-dev-server",
     "prebuild": "yarn run clean",
     "build": "webpack -p",
-    "test": "jest"
+    "test": "jest",
+    "precommit": "yarn run format"
   },
   "dependencies": {
     "react": "^15.4.2",
