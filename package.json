@@ -1,6 +1,7 @@
 {
   "name": "changeover",
   "version": "1.0.0",
+  "private": true,
   "main": "index.js",
   "repository": {
     "type": "git",
