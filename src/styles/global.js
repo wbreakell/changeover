@@ -13,6 +13,7 @@ injectGlobal`
 
   body {
     font-family:
+      'Avenir Next',
       -apple-system,
       BlinkMacSystemFont,
       'Segoe UI',
