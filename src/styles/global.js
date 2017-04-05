@@ -12,6 +12,7 @@ injectGlobal`
   }
 
   body {
+    background-color: #F7F7F7;
     font-family:
       'Avenir Next',
       -apple-system,
