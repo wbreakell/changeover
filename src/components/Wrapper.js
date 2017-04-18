@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Container = styled.div`
+const Wrapper = styled.div`
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
@@ -25,4 +25,4 @@ const Container = styled.div`
   }
 `;
 
-export default Container;
+export default Wrapper;
