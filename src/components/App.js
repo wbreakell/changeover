@@ -1,4 +1,5 @@
 import React from 'react';
+import Content from './Content';
 import Copyright from './Copyright';
 import FlexContainer from './FlexContainer';
 import FlexItem from './FlexItem';
@@ -7,18 +8,17 @@ import FooterLink from './FooterLink';
 import Header from './Header';
 import Headline from './Headline';
 import Logo from './Logo';
-import Wrapper from './Wrapper';
 
 const App = () => (
   <div>
     <Header>
-      <Wrapper>
+      <Content>
         <Logo href="#">C</Logo>
         <Headline>Simplified Foreign Currency</Headline>
-      </Wrapper>
+      </Content>
     </Header>
     <Footer>
-      <Wrapper>
+      <Content>
         <FlexContainer
           flexDirectionXS="column"
           flexDirectionSM="row"
@@ -36,7 +36,7 @@ const App = () => (
             </FooterLink>
           </FlexItem>
         </FlexContainer>
-      </Wrapper>
+      </Content>
     </Footer>
   </div>
 );
