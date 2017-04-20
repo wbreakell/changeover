@@ -8,6 +8,7 @@ import FooterLink from './FooterLink';
 import Header from './Header';
 import Headline from './Headline';
 import Logo from './Logo';
+import Main from './Main';
 
 const App = () => (
   <div>
@@ -17,6 +18,7 @@ const App = () => (
         <Headline>Simplified Foreign Currency</Headline>
       </Content>
     </Header>
+    <Main />
     <Footer>
       <Content>
         <FlexContainer
