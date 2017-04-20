@@ -9,9 +9,10 @@ import Header from './Header';
 import Headline from './Headline';
 import Logo from './Logo';
 import Main from './Main';
+import Wrapper from './Wrapper';
 
 const App = () => (
-  <div>
+  <Wrapper>
     <Header>
       <Content>
         <Logo href="#">C</Logo>
@@ -40,7 +41,7 @@ const App = () => (
         </FlexContainer>
       </Content>
     </Footer>
-  </div>
+  </Wrapper>
 );
 
 export default App;
