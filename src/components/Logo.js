@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { media } from '../styles/utilities/media';
 
 const Logo = styled.a`
   color: #FFF;
@@ -7,9 +8,9 @@ const Logo = styled.a`
   font-weight: 700;
   text-decoration: none;
 
-  @media (min-width: 768px) {
+  ${media.md`
     font-size: 2.25rem;
-  }
+  `}
 `;
 
 export default Logo;

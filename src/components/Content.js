@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { media } from '../styles/utilities/media';
 
 const Content = styled.div`
   margin-left: auto;
@@ -8,21 +9,21 @@ const Content = styled.div`
   padding-left: 25px;
   padding-right: 25px;
 
-  @media (min-width: 576px) {
+  ${media.sm`
     width: 540px;
-  }
+  `}
 
-  @media (min-width: 768px) {
+  ${media.md`
     width: 720px;
-  }
+  `}
 
-  @media (min-width: 992px) {
+  ${media.lg`
     width: 960px;
-  }
+  `}
 
-  @media (min-width: 1200px) {
+  ${media.xl`
     width: 1140px;
-  }
+  `}
 `;
 
 export default Content;
