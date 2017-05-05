@@ -1,11 +1,5 @@
+import { createAction } from 'redux-actions';
 import * as types from '../constants/actionTypes';
 
-export const setBaseAmount = amount => ({
-  type: types.SET_BASE_AMOUNT,
-  amount
-});
-
-export const setBaseCurrency = currency => ({
-  type: types.SET_BASE_CURRENCY,
-  currency
-});
+export const setBaseAmount = createAction(types.SET_BASE_AMOUNT);
+export const setBaseCurrency = createAction(types.SET_BASE_CURRENCY);

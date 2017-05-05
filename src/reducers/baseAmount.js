@@ -3,7 +3,7 @@ import { SET_BASE_AMOUNT } from '../constants/actionTypes';
 const baseAmount = (state = 1, action) => {
   switch (action.type) {
     case SET_BASE_AMOUNT:
-      return action.amount;
+      return action.payload;
     default:
       return state;
   }

@@ -11,7 +11,7 @@ describe('baseCurrency reducer', () => {
     expect(
       baseCurrency(currencies.USD, {
         type: SET_BASE_CURRENCY,
-        currency: currencies.GBP
+        payload: currencies.GBP
       })
     ).toEqual(currencies.GBP);
   });

@@ -10,7 +10,7 @@ describe('baseAmount reducer', () => {
     expect(
       baseAmount(1, {
         type: SET_BASE_AMOUNT,
-        amount: 15
+        payload: 15
       })
     ).toEqual(15);
   });
