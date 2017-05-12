@@ -12,6 +12,7 @@
   "scripts": {
     "clean": "rimraf dist",
     "format": "prettier --single-quote --write 'src/**/*.js'",
+    "flow": "flow",
     "start": "webpack-dev-server",
     "prebuild": "yarn run clean",
     "build": "webpack -p",
