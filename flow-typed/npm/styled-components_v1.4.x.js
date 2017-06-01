@@ -1,5 +1,5 @@
-// flow-typed signature: 22fbf667e5deca24f7d75ff5bffd0b87
-// flow-typed version: fda65b2c82/styled-components_v1.4.x/flow_>=v0.25.x
+// flow-typed signature: 989824ae6a1a8e9fda47980ac75bf396
+// flow-typed version: 0e8d3fe7bf/styled-components_v1.4.x/flow_>=v0.25.x
 
 // @flow
 
@@ -191,6 +191,7 @@ declare module 'styled-components/native' {
   declare module.exports: {
     css: (strings: Array<string>, ...interpolations: Array<Interpolation>) => Array<Interpolation>,
     withTheme: (component: Component) => React$Component<*, ThemeProviderProps, *>,
+    keyframes: (strings: Array<string>, ...interpolations: Array<Interpolation>) => string,
     ThemeProvider: typeof Npm$StyledComponents$ThemeProvider,
 
     (baseComponent: Component): StyledComponent,
