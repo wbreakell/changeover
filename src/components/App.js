@@ -11,7 +11,7 @@ import Logo from './Logo';
 import Main from './Main';
 import Wrapper from './Wrapper';
 
-const App = () => (
+const App = () =>
   <Wrapper>
     <Header>
       <Content>
@@ -41,7 +41,6 @@ const App = () => (
         </FlexContainer>
       </Content>
     </Footer>
-  </Wrapper>
-);
+  </Wrapper>;
 
 export default App;
