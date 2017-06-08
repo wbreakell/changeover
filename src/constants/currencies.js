@@ -1,3 +1,5 @@
+// @flow
+
 const currencies = {
   AUD: 'AUD',
   BGN: 'BGN',
