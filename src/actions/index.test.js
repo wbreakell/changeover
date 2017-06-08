@@ -1,3 +1,5 @@
+// @flow
+
 import * as types from '../constants/actionTypes';
 import currencies from '../constants/currencies';
 import * as actions from './index';
