@@ -42,6 +42,6 @@
     "prettier": "^1.4.2",
     "rimraf": "^2.6.1",
     "webpack": "^3.0.0",
-    "webpack-dev-server": "^2.4.5"
+    "webpack-dev-server": "^2.5.0"
   }
 }
