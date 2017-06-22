@@ -36,7 +36,7 @@
     "babel-preset-env": "^1.5.1",
     "babel-preset-react": "^6.24.1",
     "file-loader": "^0.11.1",
-    "flow-bin": "^0.47.0",
+    "flow-bin": "^0.48.0",
     "husky": "^0.13.3",
     "jest": "^20.0.4",
     "prettier": "^1.4.2",
