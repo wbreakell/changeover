@@ -1,5 +1,5 @@
-// flow-typed signature: 5154b35922893a9a83e98c418f18be49
-// flow-typed version: cfaf0b496f/styled-components_v2.x.x/flow_>=v0.25.x
+// flow-typed signature: 3a2f61dde69e3311cdc6d0f14863a9ef
+// flow-typed version: b2ad6292df/styled-components_v2.x.x/flow_>=v0.25.x
 
 // @flow
 
@@ -14,10 +14,10 @@ type $npm$styledComponents$StyledComponent = (
 
 type $npm$styledComponents$Theme = {[key: string]: mixed};
 type $npm$styledComponents$ThemeProviderProps = {
-  theme: ((outerTheme: $npm$styledComponents$Theme) => void) | $npm$styledComponents$Theme
+  theme: $npm$styledComponents$Theme | ((outerTheme: $npm$styledComponents$Theme) => void)
 };
 type $npm$styledComponents$Component =
-  | React$Component<*, *, *>
+  | ReactClass<*>
   | (props: *) => React$Element<*>;
 
 class Npm$StyledComponents$ThemeProvider extends React$Component {
