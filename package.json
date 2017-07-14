@@ -21,8 +21,8 @@
     "precommit": "yarn run format"
   },
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
     "react-redux": "^5.0.5",
     "redux": "^3.6.0",
     "redux-actions": "^2.0.3",
