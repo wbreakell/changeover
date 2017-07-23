@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import { media } from '../styles/utilities/media';
 
 const Panel = styled.div`
-  background-color: #FFF;
+  background-color: #fff;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
@@ -15,7 +15,7 @@ const Panel = styled.div`
   ${media.md`
     flex-flow: row nowrap;
     padding: 1.5rem 2rem;
-  `}
+  `};
 `;
 
 export default Panel;

@@ -13,19 +13,13 @@ const Content = styled.div`
 
   ${media.sm`
     width: 540px;
-  `}
-
-  ${media.md`
+  `} ${media.md`
     width: 720px;
-  `}
-
-  ${media.lg`
+  `} ${media.lg`
     width: 960px;
-  `}
-
-  ${media.xl`
+  `} ${media.xl`
     width: 1140px;
-  `}
+  `};
 `;
 
 export default Content;

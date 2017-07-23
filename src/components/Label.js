@@ -4,7 +4,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Label = styled.label`
-  color: #40434B;
+  color: #40434b;
   display: block;
   font-size: 0.875rem;
   font-weight: 700;

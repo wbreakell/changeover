@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import { media } from '../styles/utilities/media';
 
 const Headline = styled.h1`
-  color: #FFF;
+  color: #fff;
   font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 6rem;
@@ -15,7 +15,7 @@ const Headline = styled.h1`
     font-size: 2.25rem;
     margin-bottom: 8rem;
     margin-top: 4rem;
-  `}
+  `};
 `;
 
 export default Headline;
