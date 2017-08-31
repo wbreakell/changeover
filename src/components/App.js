@@ -11,7 +11,7 @@ import Logo from './Logo';
 import Main from './Main';
 import Wrapper from './Wrapper';
 
-const App = () =>
+const App = () => (
   <Wrapper>
     <Header>
       <Content>
@@ -28,9 +28,7 @@ const App = () =>
           justifyContentSM="space-between"
         >
           <FlexItem orderXS="2" orderSM="1">
-            <Copyright>
-              © {new Date().getFullYear()} Walter Breakell
-            </Copyright>
+            <Copyright>© {new Date().getFullYear()} Walter Breakell</Copyright>
           </FlexItem>
           <FlexItem orderXS="1" orderSM="2">
             <FooterLink href="https://github.com/wbreakell/changeover">
@@ -43,6 +41,7 @@ const App = () =>
         </FlexContainer>
       </Content>
     </Footer>
-  </Wrapper>;
+  </Wrapper>
+);
 
 export default App;
