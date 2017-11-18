@@ -1,12 +1,12 @@
-// flow-typed signature: c8103de2978f6ec3654cef5c222aac38
-// flow-typed version: 0f5171e139/redux-actions_v2.x.x/flow_>=v0.39.x
+// flow-typed signature: 7e15adce10779b8fb956eeb8c0c83512
+// flow-typed version: 56da885f85/redux-actions_v2.x.x/flow_>=v0.39.x
 
 declare module "redux-actions" {
   /*
    * Use `ActionType` to get the type of the action created by a given action
    * creator. For example:
    *
-   *     import { creatAction, type ActionType } from 'redux-actions'
+   *     import { createAction, type ActionType } from 'redux-actions'
    *
    *     const increment = createAction(INCREMENT, (count: number) => count)
    *
