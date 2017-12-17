@@ -27,7 +27,7 @@
     "redux": "^3.7.2",
     "redux-actions": "^2.2.1",
     "redux-promise": "^0.5.3",
-    "styled-components": "^2.2.3"
+    "styled-components": "^2.3.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
