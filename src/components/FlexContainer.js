@@ -7,12 +7,12 @@ const FlexContainer = styled.div`
   ${props =>
     props.alignContentXS &&
     `align-content: ${props.alignContentXS};`} ${props =>
-      props.alignItemsXS && `align-items: ${props.alignItemsXS};`} ${props =>
-      props.flexDirectionXS &&
-      `flex-direction: ${props.flexDirectionXS};`} ${props =>
-      props.flexWrapXS && `flex-wrap: ${props.flexWrapXS};`} ${props =>
-      props.justifyContentXS &&
-      `justify-content: ${props.justifyContentXS};`} ${media.sm`
+  props.alignItemsXS && `align-items: ${props.alignItemsXS};`} ${props =>
+  props.flexDirectionXS &&
+  `flex-direction: ${props.flexDirectionXS};`} ${props =>
+  props.flexWrapXS && `flex-wrap: ${props.flexWrapXS};`} ${props =>
+  props.justifyContentXS &&
+  `justify-content: ${props.justifyContentXS};`} ${media.sm`
     ${props =>
       props.alignContentSM && `align-content: ${props.alignContentSM};`}
     ${props => props.alignItemsSM && `align-items: ${props.alignItemsSM};`}

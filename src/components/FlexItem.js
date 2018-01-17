@@ -5,10 +5,10 @@ import { media } from '../styles/utilities/media';
 const FlexItem = styled.div`
   ${props =>
     props.alignSelfXS && `align-self: ${props.alignSelfXS};`} ${props =>
-      props.flexBasisXS && `flex-basis: ${props.flexBasisXS};`} ${props =>
-      props.flexGrowXS && `flex-grow: ${props.flexGrowXS};`} ${props =>
-      props.flexShrinkXS && `flex-shrink: ${props.flexShrinkXS};`} ${props =>
-      props.orderXS && `order: ${props.orderXS};`} ${media.sm`
+  props.flexBasisXS && `flex-basis: ${props.flexBasisXS};`} ${props =>
+  props.flexGrowXS && `flex-grow: ${props.flexGrowXS};`} ${props =>
+  props.flexShrinkXS && `flex-shrink: ${props.flexShrinkXS};`} ${props =>
+  props.orderXS && `order: ${props.orderXS};`} ${media.sm`
     ${props => props.alignSelfSM && `align-self: ${props.alignSelfSM};`}
     ${props => props.flexBasisSM && `flex-basis: ${props.flexBasisSM};`}
     ${props => props.flexGrowSM && `flex-grow: ${props.flexGrowSM};`}
