@@ -12,6 +12,9 @@ const mapDispatchToProps = dispatch => ({
   }
 });
 
-const CurrencyInput = connect(mapStateToProps, mapDispatchToProps)(Input);
+const CurrencyInput = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Input);
 
 export default CurrencyInput;
