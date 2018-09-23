@@ -21,6 +21,7 @@
     "precommit": "yarn run format"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.0.0",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-redux": "^5.0.7",
@@ -30,11 +31,13 @@
     "styled-components": "^3.4.1"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
-    "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
+    "babel-loader": "^8.0.2",
     "file-loader": "^2.0.0",
     "flow-bin": "^0.81.0",
     "husky": "^0.14.3",
