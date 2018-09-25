@@ -17,8 +17,12 @@
     "prebuild": "yarn run clean",
     "build": "webpack -p",
     "test": "jest",
-    "coverage": "jest --coverage",
-    "precommit": "yarn run format"
+    "coverage": "jest --coverage"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run format"
+    }
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
