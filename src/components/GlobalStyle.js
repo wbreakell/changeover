@@ -1,8 +1,8 @@
 // @flow
 
-import { injectGlobal } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 
-injectGlobal`
+const GlobalStyle = createGlobalStyle`
   html {
     box-sizing: border-box;
   }
@@ -37,3 +37,5 @@ injectGlobal`
     max-height: 100%;
   }
 `;
+
+export default GlobalStyle;
