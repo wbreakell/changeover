@@ -2,7 +2,7 @@
 
 import React from 'react';
 import styled from 'styled-components';
-import { media } from '../styles/utilities/media';
+import { media } from '../styles/media';
 
 const Content = styled.div`
   margin-left: auto;
