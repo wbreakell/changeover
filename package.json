@@ -42,7 +42,7 @@
     "babel-jest": "^24.8.0",
     "babel-loader": "^8.0.2",
     "file-loader": "^4.0.0",
-    "flow-bin": "^0.102.0-rc",
+    "flow-bin": "^0.103.0",
     "husky": "^3.0.0",
     "jest": "^24.8.0",
     "prettier": "^1.18.2",
