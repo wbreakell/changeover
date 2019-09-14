@@ -25,7 +25,7 @@
     }
   },
   "dependencies": {
-    "@babel/polyfill": "^7.4.0",
+    "@babel/polyfill": "^7.6.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-redux": "^5.1.0",
